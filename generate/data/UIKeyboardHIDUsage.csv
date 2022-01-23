@@ -1,0 +1,173 @@
+usage,name,comment
+1,keyboardErrorRollOver,ErrorRollOver
+2,keyboardPOSTFail,POSTFail
+3,keyboardErrorUndefined,ErrorUndefined
+4,keyboardA,a or A
+5,keyboardB,b or B
+6,keyboardC,c or C
+7,keyboardD,d or D
+8,keyboardE,e or E
+9,keyboardF,f or F
+10,keyboardG,g or G
+11,keyboardH,h or H
+12,keyboardI,i or I
+13,keyboardJ,j or J
+14,keyboardK,k or K
+15,keyboardL,l or L
+16,keyboardM,m or M
+17,keyboardN,n or N
+18,keyboardO,o or O
+19,keyboardP,p or P
+20,keyboardQ,q or Q
+21,keyboardR,r or R
+22,keyboardS,s or S
+23,keyboardT,t or T
+24,keyboardU,u or U
+25,keyboardV,v or V
+26,keyboardW,w or W
+27,keyboardX,x or X
+28,keyboardY,y or Y
+29,keyboardZ,z or Z
+30,keyboard1,1 or !
+31,keyboard2,2 or @
+32,keyboard3,3 or #
+33,keyboard4,4 or $
+34,keyboard5,5 or %
+35,keyboard6,6 or ^
+36,keyboard7,7 or &
+37,keyboard8,8 or *
+38,keyboard9,9 or (
+39,keyboard0,0 or )
+40,keyboardReturnOrEnter,Return (Enter)
+41,keyboardEscape,Escape
+42,keyboardDeleteOrBackspace,Delete (Backspace)
+43,keyboardTab,Tab
+44,keyboardSpacebar,Spacebar
+45,keyboardHyphen,- or _
+46,keyboardEqualSign,= or +
+47,keyboardOpenBracket,[ or {
+48,keyboardCloseBracket,] or }
+49,keyboardBackslash,\ or |
+50,keyboardNonUSPound,Non-US # or _
+51,keyboardSemicolon,; or :
+52,keyboardQuote,"' or """
+53,keyboardGraveAccentAndTilde,Grave Accent and Tilde
+54,keyboardComma,", or <"
+55,keyboardPeriod,. or >
+56,keyboardSlash,/ or ?
+57,keyboardCapsLock,Caps Lock
+58,keyboardF1,F1
+59,keyboardF2,F2
+60,keyboardF3,F3
+61,keyboardF4,F4
+62,keyboardF5,F5
+63,keyboardF6,F6
+64,keyboardF7,F7
+65,keyboardF8,F8
+66,keyboardF9,F9
+67,keyboardF10,F10
+68,keyboardF11,F11
+69,keyboardF12,F12
+70,keyboardPrintScreen,Print Screen
+71,keyboardScrollLock,Scroll Lock
+72,keyboardPause,Pause
+73,keyboardInsert,Insert
+74,keyboardHome,Home
+75,keyboardPageUp,Page Up
+76,keyboardDeleteForward,Delete Forward
+77,keyboardEnd,End
+78,keyboardPageDown,Page Down
+79,keyboardRightArrow,Right Arrow
+80,keyboardLeftArrow,Left Arrow
+81,keyboardDownArrow,Down Arrow
+82,keyboardUpArrow,Up Arrow
+83,keypadNumLock,Keypad NumLock or Clear
+84,keypadSlash,Keypad /
+85,keypadAsterisk,Keypad *
+86,keypadHyphen,Keypad -
+87,keypadPlus,Keypad +
+88,keypadEnter,Keypad Enter
+89,keypad1,Keypad 1 or End
+90,keypad2,Keypad 2 or Down Arrow
+91,keypad3,Keypad 3 or Page Down
+92,keypad4,Keypad 4 or Left Arrow
+93,keypad5,Keypad 5
+94,keypad6,Keypad 6 or Right Arrow
+95,keypad7,Keypad 7 or Home
+96,keypad8,Keypad 8 or Up Arrow
+97,keypad9,Keypad 9 or Page Up
+98,keypad0,Keypad 0 or Insert
+99,keypadPeriod,Keypad . or Delete
+100,keyboardNonUSBackslash,Non-US \ or |
+101,keyboardApplication,Application
+102,keyboardPower,Power
+103,keypadEqualSign,Keypad =
+104,keyboardF13,F13
+105,keyboardF14,F14
+106,keyboardF15,F15
+107,keyboardF16,F16
+108,keyboardF17,F17
+109,keyboardF18,F18
+110,keyboardF19,F19
+111,keyboardF20,F20
+112,keyboardF21,F21
+113,keyboardF22,F22
+114,keyboardF23,F23
+115,keyboardF24,F24
+116,keyboardExecute,Execute
+117,keyboardHelp,Help
+118,keyboardMenu,Menu
+119,keyboardSelect,Select
+120,keyboardStop,Stop
+121,keyboardAgain,Again
+122,keyboardUndo,Undo
+123,keyboardCut,Cut
+124,keyboardCopy,Copy
+125,keyboardPaste,Paste
+126,keyboardFind,Find
+127,keyboardMute,Mute
+128,keyboardVolumeUp,Volume Up
+129,keyboardVolumeDown,Volume Down
+130,keyboardLockingCapsLock,Locking Caps Lock
+131,keyboardLockingNumLock,Locking Num Lock
+132,keyboardLockingScrollLock,Locking Scroll Lock
+133,keypadComma,Keypad Comma
+134,keypadEqualSignAS400,Keypad Equal Sign for AS/400
+135,keyboardInternational1,International1
+136,keyboardInternational2,International2
+137,keyboardInternational3,International3
+138,keyboardInternational4,International4
+139,keyboardInternational5,International5
+140,keyboardInternational6,International6
+141,keyboardInternational7,International7
+142,keyboardInternational8,International8
+143,keyboardInternational9,International9
+144,keyboardLANG1,LANG1
+145,keyboardLANG2,LANG2
+146,keyboardLANG3,LANG3
+147,keyboardLANG4,LANG4
+148,keyboardLANG5,LANG5
+149,keyboardLANG6,LANG6
+150,keyboardLANG7,LANG7
+151,keyboardLANG8,LANG8
+152,keyboardLANG9,LANG9
+153,keyboardAlternateErase,AlternateErase
+154,keyboardSysReqOrAttention,SysReq/Attention
+155,keyboardCancel,Cancel
+156,keyboardClear,Clear
+157,keyboardPrior,Prior
+158,keyboardReturn,Return
+159,keyboardSeparator,Separator
+160,keyboardOut,Out
+161,keyboardOper,Oper
+162,keyboardClearOrAgain,Clear/Again
+163,keyboardCrSelOrProps,CrSel/Props
+164,keyboardExSel,ExSel
+224,keyboardLeftControl,Left Control
+225,keyboardLeftShift,Left Shift
+226,keyboardLeftAlt,Left Alt
+227,keyboardLeftGUI,Left GUI
+228,keyboardRightControl,Right Control
+229,keyboardRightShift,Right Shift
+230,keyboardRightAlt,Right Alt
+231,keyboardRightGUI,Right GUI

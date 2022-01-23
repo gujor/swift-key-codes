@@ -1,0 +1,36 @@
+${template_header}
+%{
+import csv
+import os
+from format import format_hex_unsigned
+from read_data import read_dom_code_data_keyboard
+from read_data import read_ui_keyboard_hid_usage
+
+dom_code_rows = {row['usage']: row for row in read_dom_code_data_keyboard()}
+usage_rows = read_ui_keyboard_hid_usage()
+
+macos_rows = list()
+
+for row in usage_rows:
+    usage = row['usage']
+    if usage in dom_code_rows:
+        macos_rows.append((dom_code_rows[usage]['mac'], row['name'], usage))
+    else:
+      print(row)
+      print(format_hex_unsigned(row['usage'],1))
+
+
+macos_rows = filter(lambda row: row[0] != 0xFFFF, macos_rows)
+macos_rows = sorted(macos_rows, key=lambda row: row[0])
+}%
+
+extension KeyboardHIDUsage {
+  public init?(macOSKeyCode keyCode: UInt16) {
+    switch keyCode {
+    % for row in macos_rows:
+    case ${format_hex_unsigned(row[0],1)}: self = .${row[1]} /* ${format_hex_unsigned(row[2],1)} */
+    % end
+    default: return nil
+    }
+  }
+}

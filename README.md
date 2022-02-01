@@ -31,9 +31,9 @@ TODO: Add modules for conversion between `USB`, `evdev`, `XKB`, `Win` and `macOS
 
 ## Generate
 
-The data sources and naive Python parsers are located at [/generate/data_source](/generate/data_source). The parsed data is available at [/generate/data](/generate/data).
+Data sources and naive Python parsers are located at [/generate/data_source](/generate/data_source). Parsed data is available at [/generate/data](/generate/data).
 
-Currently, these data sources are available:
+Currently, these sources are available:
 
 - [dom_code_data](/generate/data_source/dom_code_data) from [Chromium](https://github.com/chromium/chromium/blob/main/ui/events/keycodes/dom/dom_code_data.inc).
   - Maps between `USB`, `evdev`, `XKB`, `Win` and `macOS`.

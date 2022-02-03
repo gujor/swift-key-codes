@@ -5,3 +5,4 @@
 xcuserdata/
 Package.resolved
 *.py[cod]
+.private

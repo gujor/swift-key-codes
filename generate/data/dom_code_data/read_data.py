@@ -1,11 +1,9 @@
 import csv
 import os
 
-### dom_code_data ###
-
 
 def _dom_code_data():
-    with open(os.path.join(os.path.dirname(__file__), "data/dom_code_data.csv"), 'r') as f:
+    with open(os.path.join(os.path.dirname(__file__), "data.csv"), 'r') as f:
         return list(csv.DictReader(f))
 
 
@@ -32,25 +30,3 @@ def read_dom_code_data_keyboard():
     rows = filter(lambda row: row['usage'] & 0x070000 == 0x070000, rows)
     rows = map(_dom_code_keyboard_map, rows)
     return rows
-
-
-### UIKeyboardHIDUsage ###
-
-def _ui_keyboard_hid_usage_int_map(row):
-    return {
-        'usage': int(row['usage']),
-        'name': row['name'],
-        'comment': row['comment'],
-    }
-
-
-def read_ui_keyboard_hid_usage():
-    with open(os.path.join(os.path.dirname(__file__), "data/UIKeyboardHIDUsage.csv"), 'r') as f:
-        rows = map(_ui_keyboard_hid_usage_int_map, csv.DictReader(f))
-        return list(rows)
-
-
-# for row in read_ui_keyboard_hid_usage():
-#     print(row)
-
-# print(len(list(read_ui_keyboard_hid_usage())))

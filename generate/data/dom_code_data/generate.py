@@ -19,6 +19,7 @@ data = read_file()
 data = re.findall(r'DOM_CODE\((.*?)\),', data, re.DOTALL)
 data = list(map(parse_attributes, data))
 
-with open("generate/data/dom_code_data.csv", 'w') as f:
+# with open("generate/data/dom_code_data.csv", 'w') as f:
+with open(os.path.join(os.path.dirname(__file__), "data.csv"), 'w') as f:
     f.write("usage,evdev,xkb,win,mac,name,id\n")
     csv.writer(f).writerows(data)

@@ -3,7 +3,8 @@ ${template_header}
 import csv
 import os
 from format import format_hex_unsigned
-from read_data import read_ui_keyboard_hid_usage
+from data.UIKeyboardHIDUsage.read_data import read_ui_keyboard_hid_usage
+
 
 rows = read_ui_keyboard_hid_usage()
 }%

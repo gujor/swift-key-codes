@@ -21,6 +21,6 @@ cases = map(lambda a: a[0], cases)
 cases = map(lambda a: (a[1], a[0], a[2]), cases)
 cases = list(cases)
 
-with open("generate/data/UIKeyboardHIDUsage.csv", 'w') as f:
+with open(os.path.join(os.path.dirname(__file__), "data.csv"), 'w') as f:
     f.write("usage,name,comment\n")
     csv.writer(f).writerows(cases)
